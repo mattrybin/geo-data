@@ -1,0 +1,1182 @@
+{
+  "Bolesławiec": {
+    "population": 38717,
+    "terc": "0201011"
+  },
+  "Bielawa": {
+    "population": 29713,
+    "terc": "0202011"
+  },
+  "Dzierżoniów": {
+    "population": 33075,
+    "terc": "0202021"
+  },
+  "Piława Górna": {
+    "population": 6382,
+    "terc": "0202041"
+  },
+  "Głogów": {
+    "population": 66627,
+    "terc": "0203011"
+  },
+  "Jawor": {
+    "population": 22615,
+    "terc": "0205011"
+  },
+  "Karpacz": {
+    "population": 4541,
+    "terc": "0206011"
+  },
+  "Kowary": {
+    "population": 10741,
+    "terc": "0206021"
+  },
+  "Piechowice": {
+    "population": 6121,
+    "terc": "0206031"
+  },
+  "Szklarska Poręba": {
+    "population": 6587,
+    "terc": "0206041"
+  },
+  "Kamienna Góra": {
+    "population": 18728,
+    "terc": "0207022"
+  },
+  "Duszniki-Zdrój": {
+    "population": 4476,
+    "terc": "0208011"
+  },
+  "Kłodzko": {
+    "population": 26574,
+    "terc": "0208072"
+  },
+  "Kudowa-Zdrój": {
+    "population": 9852,
+    "terc": "0208031"
+  },
+  "Nowa Ruda": {
+    "population": 21752,
+    "terc": "0208112"
+  },
+  "Polanica-Zdrój": {
+    "population": 6275,
+    "terc": "0208051"
+  },
+  "Chojnów": {
+    "population": 13288,
+    "terc": "0209022"
+  },
+  "Lubań": {
+    "population": 20879,
+    "terc": "0210011"
+  },
+  "Świeradów-Zdrój": {
+    "population": 4054,
+    "terc": "0210021"
+  },
+  "Lubin": {
+    "population": 72142,
+    "terc": "0211022"
+  },
+  "Oleśnica": {
+    "population": 37109,
+    "terc": "2612033"
+  },
+  "Oława": {
+    "population": 33172,
+    "terc": "0215042"
+  },
+  "Świdnica": {
+    "population": 56564,
+    "terc": "0219011"
+  },
+  "Świebodzice": {
+    "population": 22715,
+    "terc": "0219021"
+  },
+  "Boguszów-Gorce": {
+    "population": 15228,
+    "terc": "0221011"
+  },
+  "Jedlina-Zdrój": {
+    "population": 4816,
+    "terc": "0221021"
+  },
+  "Szczawno-Zdrój": {
+    "population": 5559,
+    "terc": "0221031"
+  },
+  "Zawidów": {
+    "population": 4154,
+    "terc": "0225011"
+  },
+  "Zgorzelec": {
+    "population": 30047,
+    "terc": "0225072"
+  },
+  "Wojcieszów": {
+    "population": 3626,
+    "terc": "0226011"
+  },
+  "Złotoryja": {
+    "population": 15395,
+    "terc": "0226021"
+  },
+  "Jelenia Góra": {
+    "population": 78778,
+    "terc": "0261011"
+  },
+  "Legnica": {
+    "population": 0,
+    "terc": "0262011"
+  },
+  "Wrocław": {
+    "population": 0,
+    "terc": "0264011"
+  },
+  "Wałbrzych": {
+    "population": 0,
+    "terc": "0265011"
+  },
+  "Aleksandrów Kujawski": {
+    "population": 12077,
+    "terc": "0401042"
+  },
+  "Ciechocinek": {
+    "population": 10610,
+    "terc": "0401021"
+  },
+  "Nieszawa": {
+    "population": 1834,
+    "terc": "0401031"
+  },
+  "Brodnica": {
+    "population": 28917,
+    "terc": "0402011"
+  },
+  "Chełmno": {
+    "population": 19388,
+    "terc": "0404011"
+  },
+  "Golub-Dobrzyń": {
+    "population": 12508,
+    "terc": "0405011"
+  },
+  "Inowrocław": {
+    "population": 72226,
+    "terc": "0407042"
+  },
+  "Radziejów": {
+    "population": 5519,
+    "terc": "0411011"
+  },
+  "Rypin": {
+    "population": 16073,
+    "terc": "0412042"
+  },
+  "Chełmża": {
+    "population": 14412,
+    "terc": "0415011"
+  },
+  "Wąbrzeźno": {
+    "population": 13483,
+    "terc": "0417011"
+  },
+  "Bydgoszcz": {
+    "population": 0,
+    "terc": "0461011"
+  },
+  "Grudziądz": {
+    "population": 0,
+    "terc": "0406012"
+  },
+  "Toruń": {
+    "population": 0,
+    "terc": "0463011"
+  },
+  "Włocławek": {
+    "population": 0,
+    "terc": "0418132"
+  },
+  "Międzyrzec Podlaski": {
+    "population": 16737,
+    "terc": "0601102"
+  },
+  "Terespol": {
+    "population": 5509,
+    "terc": "0601021"
+  },
+  "Biłgoraj": {
+    "population": 26245,
+    "terc": "0602011"
+  },
+  "Rejowiec Fabryczny": {
+    "population": 4355,
+    "terc": "0603011"
+  },
+  "Hrubieszów": {
+    "population": 17401,
+    "terc": "0604042"
+  },
+  "Krasnystaw": {
+    "population": 18523,
+    "terc": "0606011"
+  },
+  "Kraśnik": {
+    "population": 34148,
+    "terc": "0607052"
+  },
+  "Lubartów": {
+    "population": 21755,
+    "terc": "0608011"
+  },
+  "Łuków": {
+    "population": 29621,
+    "terc": "0611052"
+  },
+  "Stoczek Łukowski": {
+    "population": 2482,
+    "terc": "0611021"
+  },
+  "Puławy": {
+    "population": 47226,
+    "terc": "0614092"
+  },
+  "Radzyń Podlaski": {
+    "population": 15589,
+    "terc": "0615011"
+  },
+  "Dęblin": {
+    "population": 16007,
+    "terc": "0616011"
+  },
+  "Świdnik": {
+    "population": 39016,
+    "terc": "0617011"
+  },
+  "Tomaszów Lubelski": {
+    "population": 18941,
+    "terc": "0618011"
+  },
+  "Włodawa": {
+    "population": 13002,
+    "terc": "0619011"
+  },
+  "Biała Podlaska": {
+    "population": 0,
+    "terc": "0601032"
+  },
+  "Chełm": {
+    "population": 0,
+    "terc": "0662011"
+  },
+  "Lublin": {
+    "population": 0,
+    "terc": "0663011"
+  },
+  "Zamość": {
+    "population": 0,
+    "terc": "0664011"
+  },
+  "Kostrzyn nad Odrą": {
+    "population": 17740,
+    "terc": "0801011"
+  },
+  "Nowa Sól": {
+    "population": 38566,
+    "terc": "0804011"
+  },
+  "Gozdnica": {
+    "population": 2980,
+    "terc": "0810011"
+  },
+  "Żagań": {
+    "population": 25506,
+    "terc": "0810021"
+  },
+  "Łęknica": {
+    "population": 2434,
+    "terc": "0811011"
+  },
+  "Żary": {
+    "population": 37173,
+    "terc": "0811021"
+  },
+  "Gorzów Wielkopolski": {
+    "population": 0,
+    "terc": "0861011"
+  },
+  "Zielona Góra": {
+    "population": 0,
+    "terc": "0862011"
+  },
+  "Bełchatów": {
+    "population": 56740,
+    "terc": "1001022"
+  },
+  "Kutno": {
+    "population": 43658,
+    "terc": "1002011"
+  },
+  "Łęczyca": {
+    "population": 13889,
+    "terc": "1004052"
+  },
+  "Łowicz": {
+    "population": 28059,
+    "terc": "1005072"
+  },
+  "Konstantynów Łódzki": {
+    "population": 18270,
+    "terc": "1008011"
+  },
+  "Pabianice": {
+    "population": 64445,
+    "terc": "1008021"
+  },
+  "Radomsko": {
+    "population": 45686,
+    "terc": "1012122"
+  },
+  "Rawa Mazowiecka": {
+    "population": 17291,
+    "terc": "1013042"
+  },
+  "Sieradz": {
+    "population": 41724,
+    "terc": "1014011"
+  },
+  "Tomaszów Mazowiecki": {
+    "population": 61645,
+    "terc": "1016092"
+  },
+  "Zduńska Wola": {
+    "population": 41499,
+    "terc": "1019042"
+  },
+  "Głowno": {
+    "population": 14041,
+    "terc": "1020011"
+  },
+  "Ozorków": {
+    "population": 19260,
+    "terc": "1020062"
+  },
+  "Zgierz": {
+    "population": 55985,
+    "terc": "1020031"
+  },
+  "Brzeziny": {
+    "population": 12474,
+    "terc": "3007022"
+  },
+  "Łódź": {
+    "population": 0,
+    "terc": "1061011"
+  },
+  "Piotrków Trybunalski": {
+    "population": 0,
+    "terc": "1062011"
+  },
+  "Skierniewice": {
+    "population": 0,
+    "terc": "1015082"
+  },
+  "Bochnia": {
+    "population": 29733,
+    "terc": "1201022"
+  },
+  "Gorlice": {
+    "population": 27231,
+    "terc": "1205011"
+  },
+  "Limanowa": {
+    "population": 15142,
+    "terc": "1207011"
+  },
+  "Mszana Dolna": {
+    "population": 7900,
+    "terc": "1207021"
+  },
+  "Grybów": {
+    "population": 6000,
+    "terc": "1210011"
+  },
+  "Nowy Targ": {
+    "population": 33324,
+    "terc": "1211011"
+  },
+  "Bukowno": {
+    "population": 10034,
+    "terc": "1212011"
+  },
+  "Oświęcim": {
+    "population": 30,
+    "terc": "1213011"
+  },
+  "Jordanów": {
+    "population": 5378,
+    "terc": "1215011"
+  },
+  "Sucha Beskidzka": {
+    "population": 9042,
+    "terc": "1215021"
+  },
+  "Zakopane": {
+    "population": 26942,
+    "terc": "1217011"
+  },
+  "Kraków": {
+    "population": 0,
+    "terc": "1261011"
+  },
+  "Nowy Sącz": {
+    "population": 0,
+    "terc": "1262011"
+  },
+  "Tarnów": {
+    "population": 0,
+    "terc": "1263011"
+  },
+  "Ciechanów": {
+    "population": 44044,
+    "terc": "1402022"
+  },
+  "Garwolin": {
+    "population": 17639,
+    "terc": "1403011"
+  },
+  "Łaskarzew": {
+    "population": 4835,
+    "terc": "1403062"
+  },
+  "Gostynin": {
+    "population": 18441,
+    "terc": "1404022"
+  },
+  "Milanówek": {
+    "population": 16464,
+    "terc": "1405011"
+  },
+  "Podkowa Leśna": {
+    "population": 3839,
+    "terc": "1405021"
+  },
+  "Legionowo": {
+    "population": 53809,
+    "terc": "1408011"
+  },
+  "Maków Mazowiecki": {
+    "population": 9651,
+    "terc": "1411011"
+  },
+  "Mińsk Mazowiecki": {
+    "population": 40995,
+    "terc": "1412011"
+  },
+  "Sulejówek": {
+    "population": 19960,
+    "terc": "1412151"
+  },
+  "Mława": {
+    "population": 31227,
+    "terc": "1413011"
+  },
+  "Nowy Dwór Mazowiecki": {
+    "population": 28718,
+    "terc": "1414011"
+  },
+  "Ostrów Mazowiecka": {
+    "population": 22332,
+    "terc": "1416011"
+  },
+  "Józefów": {
+    "population": 20744,
+    "terc": "1417011"
+  },
+  "Otwock": {
+    "population": 44560,
+    "terc": "1417021"
+  },
+  "Płońsk": {
+    "population": 22053,
+    "terc": "1420092"
+  },
+  "Raciąż": {
+    "population": 4390,
+    "terc": "1420102"
+  },
+  "Piastów": {
+    "population": 22617,
+    "terc": "1421011"
+  },
+  "Pruszków": {
+    "population": 62489,
+    "terc": "1421021"
+  },
+  "Przasnysz": {
+    "population": 17160,
+    "terc": "1422011"
+  },
+  "Pionki": {
+    "population": 18047,
+    "terc": "1425082"
+  },
+  "Sierpc": {
+    "population": 17870,
+    "terc": "1427011"
+  },
+  "Sochaczew": {
+    "population": 36138,
+    "terc": "1428011"
+  },
+  "Sokołów Podlaski": {
+    "population": 18912,
+    "terc": "1429011"
+  },
+  "Węgrów": {
+    "population": 12526,
+    "terc": "1433011"
+  },
+  "Kobyłka": {
+    "population": 24883,
+    "terc": "1434011"
+  },
+  "Marki": {
+    "population": 36215,
+    "terc": "1434021"
+  },
+  "Ząbki": {
+    "population": 38302,
+    "terc": "1434031"
+  },
+  "Zielonka": {
+    "population": 17526,
+    "terc": "1434041"
+  },
+  "Żyrardów": {
+    "population": 39730,
+    "terc": "1438011"
+  },
+  "Ostrołęka": {
+    "population": 0,
+    "terc": "1461011"
+  },
+  "Płock": {
+    "population": 0,
+    "terc": "1462011"
+  },
+  "Radom": {
+    "population": 0,
+    "terc": "1463011"
+  },
+  "Siedlce": {
+    "population": 0,
+    "terc": "1426082"
+  },
+  "Brzeg": {
+    "population": 35491,
+    "terc": "1601011"
+  },
+  "Kędzierzyn-Koźle": {
+    "population": 60383,
+    "terc": "1603011"
+  },
+  "Opole": {
+    "population": 0,
+    "terc": "1661011"
+  },
+  "Dębica": {
+    "population": 45385,
+    "terc": "1803042"
+  },
+  "Jarosław": {
+    "population": 37375,
+    "terc": "1804042"
+  },
+  "Radymno": {
+    "population": 5240,
+    "terc": "1804082"
+  },
+  "Jasło": {
+    "population": 34721,
+    "terc": "1805042"
+  },
+  "Leżajsk": {
+    "population": 13715,
+    "terc": "1808042"
+  },
+  "Lubaczów": {
+    "population": 11880,
+    "terc": "1809042"
+  },
+  "Łańcut": {
+    "population": 17686,
+    "terc": "1810042"
+  },
+  "Mielec": {
+    "population": 60229,
+    "terc": "1811011"
+  },
+  "Przeworsk": {
+    "population": 15224,
+    "terc": "1814062"
+  },
+  "Dynów": {
+    "population": 6122,
+    "terc": "1816052"
+  },
+  "Sanok": {
+    "population": 37210,
+    "terc": "1817052"
+  },
+  "Stalowa Wola": {
+    "population": 60179,
+    "terc": "1818011"
+  },
+  "Krosno": {
+    "population": 0,
+    "terc": "1861011"
+  },
+  "Przemyśl": {
+    "population": 0,
+    "terc": "1813082"
+  },
+  "Rzeszów": {
+    "population": 0,
+    "terc": "1863011"
+  },
+  "Tarnobrzeg": {
+    "population": 0,
+    "terc": "1864011"
+  },
+  "Augustów": {
+    "population": 30135,
+    "terc": "2001011"
+  },
+  "Bielsk Podlaski": {
+    "population": 25158,
+    "terc": "2003011"
+  },
+  "Brańsk": {
+    "population": 3739,
+    "terc": "2003021"
+  },
+  "Grajewo": {
+    "population": 21812,
+    "terc": "2004022"
+  },
+  "Hajnówka": {
+    "population": 20391,
+    "terc": "2005062"
+  },
+  "Kolno": {
+    "population": 10164,
+    "terc": "2006032"
+  },
+  "Sejny": {
+    "population": 5217,
+    "terc": "2009052"
+  },
+  "Siemiatycze": {
+    "population": 14294,
+    "terc": "2010092"
+  },
+  "Wysokie Mazowieckie": {
+    "population": 9319,
+    "terc": "2013011"
+  },
+  "Zambrów": {
+    "population": 22015,
+    "terc": "2014011"
+  },
+  "Białystok": {
+    "population": 0,
+    "terc": "2061011"
+  },
+  "Łomża": {
+    "population": 0,
+    "terc": "2062011"
+  },
+  "Suwałki": {
+    "population": 0,
+    "terc": "2012072"
+  },
+  "Chojnice": {
+    "population": 39724,
+    "terc": "2202011"
+  },
+  "Człuchów": {
+    "population": 13569,
+    "terc": "2203032"
+  },
+  "Pruszcz Gdański": {
+    "population": 31471,
+    "terc": "2204011"
+  },
+  "Kościerzyna": {
+    "population": 23757,
+    "terc": "2206042"
+  },
+  "Kwidzyn": {
+    "population": 38338,
+    "terc": "2207011"
+  },
+  "Lębork": {
+    "population": 35203,
+    "terc": "2208011"
+  },
+  "Łeba": {
+    "population": 3572,
+    "terc": "2208021"
+  },
+  "Malbork": {
+    "population": 38278,
+    "terc": "2209011"
+  },
+  "Krynica Morska": {
+    "population": 1279,
+    "terc": "2210011"
+  },
+  "Władysławowo": {
+    "population": 15332,
+    "terc": "2211043"
+  },
+  "Ustka": {
+    "population": 15273,
+    "terc": "2212011"
+  },
+  "Skórcz": {
+    "population": 3624,
+    "terc": "2213021"
+  },
+  "Starogard Gdański": {
+    "population": 47535,
+    "terc": "2213122"
+  },
+  "Tczew": {
+    "population": 59828,
+    "terc": "2214062"
+  },
+  "Rumia": {
+    "population": 49363,
+    "terc": "2215021"
+  },
+  "Wejherowo": {
+    "population": 49351,
+    "terc": "2215031"
+  },
+  "Gdańsk": {
+    "population": 0,
+    "terc": "2261011"
+  },
+  "Gdynia": {
+    "population": 0,
+    "terc": "2262011"
+  },
+  "Słupsk": {
+    "population": 0,
+    "terc": "2263011"
+  },
+  "Sopot": {
+    "population": 0,
+    "terc": "2264011"
+  },
+  "Będzin": {
+    "population": 56191,
+    "terc": "2401011"
+  },
+  "Czeladź": {
+    "population": 31287,
+    "terc": "2401021"
+  },
+  "Wojkowice": {
+    "population": 8925,
+    "terc": "2401031"
+  },
+  "Sławków": {
+    "population": 6991,
+    "terc": "2401081"
+  },
+  "Szczyrk": {
+    "population": 5731,
+    "terc": "2402011"
+  },
+  "Cieszyn": {
+    "population": 34297,
+    "terc": "2403011"
+  },
+  "Ustroń": {
+    "population": 16055,
+    "terc": "2403021"
+  },
+  "Wisła": {
+    "population": 11040,
+    "terc": "2403031"
+  },
+  "Knurów": {
+    "population": 38004,
+    "terc": "2405011"
+  },
+  "Pyskowice": {
+    "population": 18450,
+    "terc": "2405021"
+  },
+  "Lubliniec": {
+    "population": 23658,
+    "terc": "2407011"
+  },
+  "Łaziska Górne": {
+    "population": 22187,
+    "terc": "2408011"
+  },
+  "Mikołów": {
+    "population": 41078,
+    "terc": "2408021"
+  },
+  "Orzesze": {
+    "population": 21221,
+    "terc": "2408031"
+  },
+  "Myszków": {
+    "population": 31454,
+    "terc": "2409011"
+  },
+  "Racibórz": {
+    "population": 54529,
+    "terc": "2411011"
+  },
+  "Kalety": {
+    "population": 8573,
+    "terc": "2413011"
+  },
+  "Miasteczko Śląskie": {
+    "population": 7422,
+    "terc": "2413021"
+  },
+  "Radzionków": {
+    "population": 16906,
+    "terc": "2413031"
+  },
+  "Tarnowskie Góry": {
+    "population": 61756,
+    "terc": "2413041"
+  },
+  "Bieruń": {
+    "population": 19457,
+    "terc": "2414011"
+  },
+  "Imielin": {
+    "population": 9274,
+    "terc": "2414021"
+  },
+  "Lędziny": {
+    "population": 16783,
+    "terc": "2414031"
+  },
+  "Pszów": {
+    "population": 13814,
+    "terc": "2415011"
+  },
+  "Rydułtowy": {
+    "population": 21525,
+    "terc": "2415031"
+  },
+  "Wodzisław Śląski": {
+    "population": 47685,
+    "terc": "2415041"
+  },
+  "Poręba": {
+    "population": 8451,
+    "terc": "2416011"
+  },
+  "Zawiercie": {
+    "population": 48934,
+    "terc": "2416021"
+  },
+  "Żywiec": {
+    "population": 30951,
+    "terc": "2417011"
+  },
+  "Bielsko-Biała": {
+    "population": 0,
+    "terc": "2461011"
+  },
+  "Bytom": {
+    "population": 0,
+    "terc": "2462011"
+  },
+  "Chorzów": {
+    "population": 0,
+    "terc": "2463011"
+  },
+  "Częstochowa": {
+    "population": 0,
+    "terc": "2464011"
+  },
+  "Dąbrowa Górnicza": {
+    "population": 0,
+    "terc": "2465011"
+  },
+  "Gliwice": {
+    "population": 0,
+    "terc": "2466011"
+  },
+  "Jastrzębie-Zdrój": {
+    "population": 0,
+    "terc": "2467011"
+  },
+  "Jaworzno": {
+    "population": 0,
+    "terc": "2468011"
+  },
+  "Katowice": {
+    "population": 0,
+    "terc": "2469011"
+  },
+  "Mysłowice": {
+    "population": 0,
+    "terc": "2470011"
+  },
+  "Piekary Śląskie": {
+    "population": 0,
+    "terc": "2471011"
+  },
+  "Ruda Śląska": {
+    "population": 0,
+    "terc": "2472011"
+  },
+  "Rybnik": {
+    "population": 0,
+    "terc": "2473011"
+  },
+  "Siemianowice Śląskie": {
+    "population": 0,
+    "terc": "2474011"
+  },
+  "Sosnowiec": {
+    "population": 0,
+    "terc": "2475011"
+  },
+  "Świętochłowice": {
+    "population": 0,
+    "terc": "2476011"
+  },
+  "Tychy": {
+    "population": 0,
+    "terc": "2477011"
+  },
+  "Zabrze": {
+    "population": 0,
+    "terc": "2478011"
+  },
+  "Żory": {
+    "population": 0,
+    "terc": "2479011"
+  },
+  "Ostrowiec Świętokrzyski": {
+    "population": 67975,
+    "terc": "2607011"
+  },
+  "Sandomierz": {
+    "population": 23238,
+    "terc": "2609011"
+  },
+  "Skarżysko-Kamienna": {
+    "population": 44578,
+    "terc": "2610011"
+  },
+  "Starachowice": {
+    "population": 48082,
+    "terc": "2611011"
+  },
+  "Kielce": {
+    "population": 0,
+    "terc": "2661011"
+  },
+  "Bartoszyce": {
+    "population": 23156,
+    "terc": "2801032"
+  },
+  "Górowo Iławeckie": {
+    "population": 3921,
+    "terc": "2801021"
+  },
+  "Braniewo": {
+    "population": 16964,
+    "terc": "2802022"
+  },
+  "Działdowo": {
+    "population": 21216,
+    "terc": "2803011"
+  },
+  "Ełk": {
+    "population": 62125,
+    "terc": "2805011"
+  },
+  "Giżycko": {
+    "population": 29236,
+    "terc": "2806011"
+  },
+  "Iława": {
+    "population": 33315,
+    "terc": "2807011"
+  },
+  "Lubawa": {
+    "population": 10390,
+    "terc": "2807052"
+  },
+  "Kętrzyn": {
+    "population": 26988,
+    "terc": "2808032"
+  },
+  "Lidzbark Warmiński": {
+    "population": 15628,
+    "terc": "2809032"
+  },
+  "Mrągowo": {
+    "population": 21448,
+    "terc": "2810011"
+  },
+  "Nowe Miasto Lubawskie": {
+    "population": 10832,
+    "terc": "2812011"
+  },
+  "Ostróda": {
+    "population": 32816,
+    "terc": "2815011"
+  },
+  "Szczytno": {
+    "population": 23026,
+    "terc": "2817062"
+  },
+  "Elbląg": {
+    "population": 0,
+    "terc": "2861011"
+  },
+  "Olsztyn": {
+    "population": 0,
+    "terc": "2862011"
+  },
+  "Chodzież": {
+    "population": 18416,
+    "terc": "3001032"
+  },
+  "Czarnków": {
+    "population": 10547,
+    "terc": "3002022"
+  },
+  "Gniezno": {
+    "population": 67968,
+    "terc": "3003032"
+  },
+  "Koło": {
+    "population": 21526,
+    "terc": "3009011"
+  },
+  "Kościan": {
+    "population": 23830,
+    "terc": "3011011"
+  },
+  "Sulmierzyce": {
+    "population": 2844,
+    "terc": "3012011"
+  },
+  "Ostrów Wielkopolski": {
+    "population": 71829,
+    "terc": "3017011"
+  },
+  "Piła": {
+    "population": 72949,
+    "terc": "3019011"
+  },
+  "Luboń": {
+    "population": 31975,
+    "terc": "3021011"
+  },
+  "Puszczykowo": {
+    "population": 9631,
+    "terc": "3021021"
+  },
+  "Słupca": {
+    "population": 13619,
+    "terc": "3023062"
+  },
+  "Obrzycko": {
+    "population": 2369,
+    "terc": "3024042"
+  },
+  "Turek": {
+    "population": 26704,
+    "terc": "3027011"
+  },
+  "Wągrowiec": {
+    "population": 25685,
+    "terc": "3028011"
+  },
+  "Złotów": {
+    "population": 18513,
+    "terc": "3031082"
+  },
+  "Kalisz": {
+    "population": 0,
+    "terc": "3061011"
+  },
+  "Konin": {
+    "population": 0,
+    "terc": "3062011"
+  },
+  "Leszno": {
+    "population": 0,
+    "terc": "3063011"
+  },
+  "Poznań": {
+    "population": 0,
+    "terc": "3064011"
+  },
+  "Białogard": {
+    "population": 24049,
+    "terc": "3201011"
+  },
+  "Kołobrzeg": {
+    "population": 46271,
+    "terc": "3208011"
+  },
+  "Darłowo": {
+    "population": 13657,
+    "terc": "3213032"
+  },
+  "Sławno": {
+    "population": 12432,
+    "terc": "1007072"
+  },
+  "Stargard": {
+    "population": 67753,
+    "terc": "3214102"
+  },
+  "Szczecinek": {
+    "population": 39885,
+    "terc": "3215062"
+  },
+  "Świdwin": {
+    "population": 15411,
+    "terc": "3216062"
+  },
+  "Wałcz": {
+    "population": 25115,
+    "terc": "3217052"
+  },
+  "Koszalin": {
+    "population": 0,
+    "terc": "3261011"
+  },
+  "Szczecin": {
+    "population": 0,
+    "terc": "3262011"
+  },
+  "Świnoujście": {
+    "population": 0,
+    "terc": "3263011"
+  }
+}
