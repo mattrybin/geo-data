@@ -1,72 +1,82 @@
-// const fs = require('fs');
-// let geodata = {}
-// const getData = async () => {
-//   let geodata = {}
-//   const data = await fs.readFileSync('/home/nikita/CODE/geo-data/src/poland.municipalities.json', 'utf8')
-//   const populationData = await fs.readFileSync('/home/nikita/CODE/geo-data/src/poland.municipalities.json', 'utf8')
-  
-//   const output = JSON.parse(data)
-//   // console.log(output.features)
-//   const result = output.features.map((input) => {
-//     // console.log(input.properties.name)
-//     return ({ ...input, properties: { ...input.properties, awesome: "GOOD" } });
-//   })
+const path = require("path")
+const csv = require("csv-parser")
+const fs = require("fs")
 
-//   console.log(result)
-// }
+const getDataPopulation = () => {
+  return new Promise((resolve, reject) => {
+    const results = []
+    fs.createReadStream(`${__dirname}/polish.gminas.csv`)
+      .pipe(csv())
+      .on("data", (data) => results.push(data))
+      .on("end", () => resolve(results))
+      .on("error", (error) => reject(error))
+  })
+}
 
-// console.log(getData())
+const getDataGminas = () => {
+  const geoJsonFilePath = path.join(__dirname, "poland.municipalities.json")
+  const geoJsonFileContent = fs.readFileSync(geoJsonFilePath, "utf8")
+  return JSON.parse(geoJsonFileContent)
+}
 
-const fs = require('fs');
+const processPopulation = (input) => {
+  console.log(input[0].pop)
+  const filtered = input.filter((input) => input.Gmina.includes("gmina"))
+  const correctFormat = filtered.map((input) => ({
+    ...input,
+    Gmina: input.Gmina.replace(/\bGmina\b/gi, "").trim(),
+    Population: parseInt(input.Population.replace(/,/g, "")),
+    Area: parseFloat(input.Area),
+    Density: parseFloat(input.Density),
+    PopulationChange: parseFloat(input["Population increase, ‰"])
+  }))
+  return correctFormat
+}
 
-// Read the content of the population file
-const populationFilePath = '/home/nikita/CODE/geo-data/src/polish.gminas.json';
-const populationFileContent = fs.readFileSync(populationFilePath, 'utf8');
-
-// Split the population file content into an array of array strings
-const populationDatabase = populationFileContent.split('\n');
-
-// Read the content of the GeoJSON file
-const geoJsonFilePath = '/home/nikita/CODE/geo-data/src/poland.municipalities.json';
-const geoJsonFileContent = fs.readFileSync(geoJsonFilePath, 'utf8');
-
-// Parse the GeoJSON data
-const geoJsonData = JSON.parse(geoJsonFileContent);
-
-// Define a regular expression pattern to match the gmina name
-const gminaPattern = /\[\[([^|\]]+)\]\]/;
-
-// Create an object to store the mapping of gmina names to population numbers
-const populationGminaMap = {};
-
-// Iterate through each entry in the population database
-populationDatabase.forEach((arrayString) => {
-    const match = arrayString.match(gminaPattern);
-
-    if (match) {
-        const gminaName = match[1];
-
-        // Find the corresponding gmina data in GeoJSON using the name property
-        const gminaData = geoJsonData.features.find((feature) => feature.properties.name === gminaName);
-
-        if (gminaData) {
-            const populationNumber = arrayString.match(/\|\|([\d,]+)\|\|/);
-            populationGminaMap[gminaName] = {
-                population: populationNumber ? parseInt(populationNumber[1].replace(/,/g, ''), 10) : 0,
-                terc: gminaData.properties.terc
-            };
-        } else {
-            console.log(`Gmina data not found for: ${gminaName}`);
-        }
+const setDataFromGminaDataset = (data, findBy) => {
+  const gmina = data.find(({ Gmina }) => {
+    return Gmina === findBy
+  })
+  console.log("GMINA", gmina)
+  if (gmina?.Population) {
+    return {
+      population: gmina.Population,
+      area: gmina.Area,
+      density: gmina.Density,
+      population_change: gmina.PopulationChange
     }
-});
+  } else {
+    return {
+      population: 0,
+      area: 0,
+      density: 0,
+      population_change: 0
+    }
+  }
+}
 
-// Print the mapping of gmina names to population numbers as a JSON object
-console.log(JSON.stringify(populationGminaMap, null, 2));
-const outputJsonFilePath = '/home/nikita/CODE/geo-data/src/populationMapping.json';
+// To use this function asynchronously
+const run = async () => {
+  try {
+    const data = processPopulation(await getDataPopulation())
+    const gminas = getDataGminas()
+    const features = gminas.features.map((input) => ({
+      ...input,
+      properties: {
+        ...input.properties,
+        ...setDataFromGminaDataset(data, input.properties.name)
+      }
+    }))
+    const newGminas = { ...gminas, features: features }
+    console.log(newGminas)
+    const finalData = JSON.stringify(newGminas)
+    fs.writeFile("generated.poland.municipalities.json", finalData, (err) => {
+      if (err) throw err
+      console.log("Data written to file")
+    })
+  } catch (error) {
+    console.error("An error occurred: ", error)
+  }
+}
 
-// Write the mapping of gmina names to population numbers to the JSON file
-fs.writeFileSync(outputJsonFilePath, JSON.stringify(populationGminaMap, null, 2));
-
-console.log(`JSON file created at: ${outputJsonFilePath}`);
-
+run()
